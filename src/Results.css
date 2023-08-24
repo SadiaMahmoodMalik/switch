@@ -1,0 +1,82 @@
+/* Results.css */
+
+.Results {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0; /* Light background for contrast */
+  color: #333; /* Dark text for readability */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Change background color on hover for micro-interaction */
+.Results:hover {
+  background-color: #646262; /* Slightly darker background on hover */
+}
+
+.results-section {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.Results h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #ff5500; /* Halloween orange heading color */
+  margin-bottom: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Change heading color on hover for animation hover state */
+.Results:hover h2 {
+  color: #ff8800; /* Lighter orange on hover */
+}
+
+/* Add context-based cursor style for interaction */
+.Results:hover {
+  cursor: pointer;
+}
+
+/* Add scroll-lock animation for micro-interaction */
+.Results.scroll-lock {
+  animation: scrollLock 0.2s ease-in-out infinite alternate;
+}
+
+@keyframes scrollLock {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-2px); /* Slight upward movement */
+  }
+}
+
+/* Add scroll-lock content pop-in animation */
+.Results.scroll-lock .results-section {
+  animation: popIn 0.5s ease-in-out forwards;
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@media (max-width: 768px) {
+  .Results {
+    padding: 15px;
+  }
+
+  .Results h2 {
+    font-size: 30px;
+  }
+}

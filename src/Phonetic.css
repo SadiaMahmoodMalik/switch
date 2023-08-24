@@ -1,0 +1,30 @@
+/* Phonetic.css with Halloween theme */
+
+.Phonetic {
+  margin: 20px 0;
+}
+
+.Phonetic a {
+  border: 1px solid #ff5500; /* Halloween orange border */
+  text-decoration: none;
+  padding: 8px 15px;
+  font-size: 13px;
+  margin-right: 10px;
+  font-weight: bold;
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
+  color: #ff5500; /* Halloween orange text color */
+}
+
+.Phonetic a:hover {
+  background-color: #ff5500; /* Halloween orange background on hover */
+  color: white; /* White text on hover */
+}
+
+.Phonetic .text {
+  opacity: 0.5;
+  font-weight: bold;
+  color: #ff5500; /* Halloween orange text color */
+}
+
+/* Add more Halloween-themed styles as needed */

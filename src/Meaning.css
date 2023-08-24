@@ -1,0 +1,33 @@
+/* Meaning.css */
+
+.Meaning {
+  font-family: 'Arial', sans-serif;
+  background-color: #000; /* Dark background for Halloween */
+  color: #fff; /* White text for readability */
+
+  /* Add some spooky decorations */
+  border: 2px solid orange;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(255, 165, 0, 0.5);
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #ff5500; /* Halloween orange for headings */
+}
+
+.definition {
+  font-size: 18px; /* Larger font size for definitions */
+}
+
+.example {
+  font-size: 14px;
+  color: #ff5500; /* Halloween orange for examples */
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* Add more Halloween-themed styles as needed */

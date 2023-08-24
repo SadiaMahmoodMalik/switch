@@ -1,0 +1,31 @@
+/* Photos.css */
+
+.Photos {
+  margin-top: 20px;
+}
+
+.photo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.photo-item {
+  width: calc(33.33% - 10px); /* Adjust as needed for the number of columns */
+  margin-bottom: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.photo-item:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.photo-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
+}
